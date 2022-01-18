@@ -17,3 +17,5 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_TEST_DEPLOYMENT_GIT }}'
           channelId: live
           projectId: test-deployment-git
+        env:
+          FIREBASE_CLI_PREVIEWS: hostingchannels
